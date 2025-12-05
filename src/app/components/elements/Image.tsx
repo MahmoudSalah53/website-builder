@@ -8,7 +8,7 @@ interface ImageProps {
 }
 
 export default function ImageComponent({ 
-  src = 'https://via.placeholder.com/400x300?text=Image',
+  src = 'https://picsum.photos/400/300',
   alt = 'Image',
   width = 400,
   height = 300,

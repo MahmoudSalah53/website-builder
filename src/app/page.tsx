@@ -238,7 +238,7 @@ export default function Home() {
       case 'button':
         return { label: 'Button', size: 'medium', variant: 'primary' };
       case 'image':
-        return { src: 'https://via.placeholder.com/400x300?text=Image', alt: 'Image' };
+        return { src: 'https://picsum.photos/400/300', alt: 'Image' };
       case 'icon':
         return { iconName: '⭐', iconSize: 'medium' };
       
@@ -260,9 +260,9 @@ export default function Home() {
       
       // Media Components
       case 'image-gallery':
-        return { images: ['https://via.placeholder.com/300x200?text=1', 'https://via.placeholder.com/300x200?text=2'] };
+        return { images: ['https://picsum.photos/300/200?random=1', 'https://picsum.photos/300/200?random=2'] };
       case 'image-carousel':
-        return { images: ['https://via.placeholder.com/600x300?text=Slide+1'], autoplay: false };
+        return { images: ['https://picsum.photos/600/300?random=1'], autoplay: false };
       
       // Form Elements
       case 'input':

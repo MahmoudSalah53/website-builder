@@ -655,7 +655,7 @@ export default function BasicProperties({ element, onUpdate }: BasicPropertiesPr
                 <label className={labelClass}>Images</label>
                 <button
                   onClick={() => {
-                    const newImages = [...galleryImages, 'https://via.placeholder.com/400x300'];
+                    const newImages = [...galleryImages, 'https://picsum.photos/400/300'];
                     updateProp('images', newImages);
                   }}
                   className="px-3 py-1.5 bg-blue-600 hover:bg-blue-700 text-white text-xs rounded transition-colors"

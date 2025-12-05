@@ -4,10 +4,10 @@ interface ImageGalleryProps {
 
 export default function ImageGalleryComponent({ 
   images = [
-    'https://via.placeholder.com/300x200?text=Image+1',
-    'https://via.placeholder.com/300x200?text=Image+2',
-    'https://via.placeholder.com/300x200?text=Image+3',
-    'https://via.placeholder.com/300x200?text=Image+4'
+    'https://picsum.photos/300/200?random=1',
+    'https://picsum.photos/300/200?random=2',
+    'https://picsum.photos/300/200?random=3',
+    'https://picsum.photos/300/200?random=4'
   ]
 }: ImageGalleryProps) {
   return (
